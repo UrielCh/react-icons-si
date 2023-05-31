@@ -1,4 +1,4 @@
-import { GenIcon, type IconBaseProps } from "https://deno.land/x/react_icons@1.0.0/mod.ts";
+import { GenIcon, type IconBaseProps } from "../deps.ts";
 
 export function SiVuetify(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{"role":"img",viewBox:"0 0 24 24"},child:[{tag:"title",attr:{},child:[]},{tag:"path",attr:{d:"M7.094 0L12 11.596 16.906 0H7.094zM1.5 3.5L12 24 22.5 3.5H17L12 15 7 3.5z"}}]})(props);
