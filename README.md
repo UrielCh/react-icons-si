@@ -23,17 +23,25 @@ For a transparent usage:
 
 ## Direct import sample
 
-`import { Si1001Tracklists } from "https://deno.land/x/react_icons_si@1.0.1/mod.ts"`
+```ts
+import { Si1001Tracklists } from "https://deno.land/x/react_icons_si@1.0.1/mod.ts"
+```
 
 ## import_map import sample
 
-`import { Si1001Tracklists } from "react-icons/si"`
+```ts
+import { Si1001Tracklists } from "react-icons/si"
+```
 
 ## minimal import
 
-`import { Si1001Tracklists } from "react-icons/si/Si1001Tracklists.ts"`
+```ts
+import { Si1001Tracklists } from "react-icons/si/Si1001Tracklists.ts"
+```
 
-## minimal import default
+## minimal import using default export
 
-`import Si1001Tracklists from "react-icons/si/Si1001Tracklists.ts"`
+```ts
+import Si1001Tracklists from "react-icons/si/Si1001Tracklists.ts"
+```
 
