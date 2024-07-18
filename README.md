@@ -42,5 +42,5 @@ import { Si1001Tracklists } from "react-icons/si/Si1001Tracklists"
 or using default export
 
 ```ts
-import Si1001Tracklists from "react-icons/si/Si1001Tracklists.ts"
+import Si1001Tracklists from "react-icons/si/Si1001Tracklists"
 ```
