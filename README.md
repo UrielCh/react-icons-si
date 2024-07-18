@@ -8,39 +8,56 @@
 
 [See available icons here](https://react-icons.deno.dev/si)
 
-## import_map.json
+## install packahe
 
-For a transparent usage:
-
-```json
-{
-  "imports": {
-    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
-    "preact": "npm:preact@10.22.1",
-    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
-    "preact/hooks": "npm:preact@10.22.1/hooks",
-    "react-icons/si": "jsr:@preact-icons/si@^1.0.11/mod.ts",
-    "react-icons/si/": "jsr:@preact-icons/si@^1.0.11/ico/",
-  }
-}
+```bash
+deno add @preact-icons/si
+dnpx jsr add @preact-icons/si
+pnpm dlx jsr add @preact-icons/si
+bunx jsr add @preact-icons/si
 ```
 
-## Import an icon without import_map by and afer loading all icons from the lib si
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
 
-```ts
-import { Si1001Tracklists } from "jsr:preact-icons/si@1.0.11/mod.ts"
+
+# Simple Icons icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/si)](https://jsr.io/@preact-icons/si)
+
+**License** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+
+**Project** [https://simpleicons.org/](https://simpleicons.org/)
+
+[See available icons here](https://react-icons.deno.dev/si)
+
+## install packahe
+
+```bash
+deno add @preact-icons/si
+dnpx jsr add @preact-icons/si
+pnpm dlx jsr add @preact-icons/si
+bunx jsr add @preact-icons/si
 ```
 
-## import_map import an icon from all icons
+You may need to update your preact mapping to:
+ - "preact": "npm:preact@10.22.1",
+ - "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+ - "preact/hooks": "npm:preact@10.22.1/hooks",
+
+
+## import an icon from all icons
 
 ```ts
-import { Si1001Tracklists } from "react-icons/si"
+import { Si1001Tracklists } from "@preact-icons/si"
 ```
 
 ## import a single icon, downloading just one icon
 
 ```ts
-import { Si1001Tracklists } from "react-icons/si/Si1001Tracklists.ts"
+import { Si1001Tracklists } from "react-icons/si/Si1001Tracklists"
 ```
 
 or using default export
