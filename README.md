@@ -1,4 +1,6 @@
-# Simple Icons icons for deno / Preact
+# Simple Icons icons for preact
+
+[![JSR](https://jsr.io/badges/@preact-icons/si)](https://jsr.io/@preact-icons/si)
 
 **License** [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
@@ -13,10 +15,12 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact":  "https://esm.sh/preact@10.22.1",
-    "preact/": "https://esm.sh/preact@10.22.1/",
-    "react-icons/si":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-si@1.0.10/mod.ts",
-    "react-icons/si/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-si@1.0.10/ico/",
+    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.10",
+    "preact": "npm:preact@10.22.1",
+    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+    "preact/hooks": "npm:preact@10.22.1/hooks",
+    "react-icons/si": "jsr:@preact-icons/si@^1.0.11/mod.ts",
+    "react-icons/si/": "jsr:@preact-icons/si@^1.0.11/ico/",
   }
 }
 ```
@@ -24,7 +28,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib si
 
 ```ts
-import { Si1001Tracklists } from "https://deno.land/x/react_icons_si@1.0.10/mod.ts"
+import { Si1001Tracklists } from "jsr:preact-icons/si@1.0.11/mod.ts"
 ```
 
 ## import_map import an icon from all icons
