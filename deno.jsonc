@@ -2,7 +2,7 @@
   "lock": false,
   "name": "@preact-icons/si",
   "license": "CC0 1.0 Universal",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "exports": {
     ".": "./mod.ts",
     "./Si1001Tracklists": "./ico/Si1001Tracklists.ts",
